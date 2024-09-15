@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-15T18:51:45 IST" name="Default suite" finished-at="2024-09-15T18:51:54 IST" duration-ms="8664">
+    <groups>
+    </groups>
+    <test started-at="2024-09-15T18:51:45 IST" name="Default test" finished-at="2024-09-15T18:51:54 IST" duration-ms="8664">
+      <class name="api.TestCases.UserTest2">
+        <test-method is-config="true" signature="DataSetup()[pri:0, instance:api.TestCases.UserTest2@3f191845]" started-at="2024-09-15T18:51:45 IST" name="DataSetup" finished-at="2024-09-15T18:51:45 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method signature="CreateUser_validation()[pri:1, instance:api.TestCases.UserTest2@3f191845]" started-at="2024-09-15T18:51:45 IST" name="CreateUser_validation" finished-at="2024-09-15T18:51:49 IST" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser_validation -->
+        <test-method signature="getCreatedUser_validation()[pri:2, instance:api.TestCases.UserTest2@3f191845]" started-at="2024-09-15T18:51:49 IST" name="getCreatedUser_validation" finished-at="2024-09-15T18:51:51 IST" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreatedUser_validation -->
+        <test-method signature="LoginCreatedUser_validation()[pri:3, instance:api.TestCases.UserTest2@3f191845]" started-at="2024-09-15T18:51:51 IST" name="LoginCreatedUser_validation" finished-at="2024-09-15T18:51:54 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCreatedUser_validation -->
+      </class> <!-- api.TestCases.UserTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
