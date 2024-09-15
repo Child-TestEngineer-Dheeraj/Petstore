@@ -59,5 +59,12 @@ public class UserTest {
 		String Login_Message = createRes.jsonPath().getString("message");
 		System.out.println("Login Message :"+Login_Message);
 	}
+	
+	@Test(priority = 4)
+	public void DeleteCreatedUser_validation()
+	{
+		Response DeleteRes= PetUserEndpoints.DeleteCreatedUser(this.data.getFirstName());
+		Assert.assertEquals(DeleteRes.getStatusCode(), 204);
+	}
 
 }
