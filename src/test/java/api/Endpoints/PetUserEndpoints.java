@@ -49,7 +49,7 @@ public class PetUserEndpoints {
 	//Delete Created User
 	public static Response DeleteCreatedUser(String CreatedUserName) {
 
-		Response DeleteCreatedUser = given().pathParam("CreatedUser", CreatedUserName).accept("application/json").when().get(Routes.DeleteUser);
+		Response DeleteCreatedUser = given().pathParam("username", CreatedUserName).accept("application/json").when().get(Routes.DeleteUser);
 
 		return DeleteCreatedUser;
 

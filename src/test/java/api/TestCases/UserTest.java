@@ -64,7 +64,7 @@ public class UserTest {
 	public void DeleteCreatedUser_validation()
 	{
 		Response DeleteRes= PetUserEndpoints.DeleteCreatedUser(this.data.getUsername());
-		Assert.assertEquals(DeleteRes.getStatusCode(), 204);
+		Assert.assertEquals(DeleteRes.getStatusCode(), 200);
 	}
 
 }
