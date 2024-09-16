@@ -63,7 +63,7 @@ public class UserTest {
 	@Test(priority = 4)
 	public void DeleteCreatedUser_validation()
 	{
-		Response DeleteRes= PetUserEndpoints.DeleteCreatedUser(this.data.getFirstName());
+		Response DeleteRes= PetUserEndpoints.DeleteCreatedUser(this.data.getUsername());
 		Assert.assertEquals(DeleteRes.getStatusCode(), 204);
 	}
 
